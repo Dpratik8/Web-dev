@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 20px; /* Adjust the gap value as per your preference */
+  justify-content: center; /* Centers the grid horizontally */
+  align-items: center; /* Centers the grid vertically */
+}
+
+.container img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
