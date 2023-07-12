@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+<body>
+<div class="header">
+  <h1>Responsive Image </h1>
+</div>
+
+<!-- Image Grid -->
+<div class="row"> 
+  <div class="column">
+     <img src="/w3images/underwater.jpg" style="width:100%"
+  </div>
+
+  <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>  
+
+  <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%"
+  </div>
+
+</body>
+</html>
