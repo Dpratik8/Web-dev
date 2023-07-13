@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 <style>
 * {
   box-sizing: border-box;
@@ -32,15 +39,19 @@
 <!-- Image Grid -->
 <div class="row"> 
   <div class="column">
-     <img src="/w3images/underwater.jpg" style="width:100%"
+     <img src="/w3images/underwater.jpg"  class="responsive" style="width:100%"
   </div>
 
   <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg"  class="responsive" style="width:100%">
   </div>  
 
   <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%"
+    <img src="/w3images/underwater.jpg" class="responsive" style="width:100%"
+  </div>
+
+ <div class="column">
+    <img src="/w3images/underwater.jpg" class="responsive" style="width:100%"
   </div>
 
 </body>
