@@ -6,14 +6,14 @@ body {font-size: 16px;line-height: 19px;margin: 0;padding: 0;font-family: Arial,
     display: flex;
     position: relative; 
     min-height: 100vh;
-    max-width: 100%;
+    max-width: auto;
     margin: 0 auto;
     padding: 60px 50px 20px 50px;
 }
 .container {
     display: flex;
     padding: 0;
-    width: 100%;
+    width: auto;
     position: relative;
     max-width: 860px;
     margin: 0 auto;
@@ -29,7 +29,7 @@ body {font-size: 16px;line-height: 19px;margin: 0;padding: 0;font-family: Arial,
     padding: 20px;
 }
 .container-box .content-box {
-    margin-top: 20px;
+    margin-top: auto
     padding: 20px 50px 20px 20px;
 }
 .header-content {
@@ -60,7 +60,7 @@ body {font-size: 16px;line-height: 19px;margin: 0;padding: 0;font-family: Arial,
     top: 10px;
 }
 .img-fluid {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
 }
 .text-content{
@@ -79,6 +79,7 @@ body {font-size: 16px;line-height: 19px;margin: 0;padding: 0;font-family: Arial,
 }
 .button{
     text-align: right;
+    margin-top: auto;
 }
 .button-content{
     line-height: 19px;
@@ -91,7 +92,7 @@ body {font-size: 16px;line-height: 19px;margin: 0;padding: 0;font-family: Arial,
     font-weight: bold;
     font-size: 15px;
     margin-top: 10px;
-    padding: 10px 30px;
+    padding: 10px auto
 }
 .grid-column{
     display: flex;
@@ -104,20 +105,31 @@ body {font-size: 16px;line-height: 19px;margin: 0;padding: 0;font-family: Arial,
 .image-pfizer{
     max-width: 87px;
     height: auto;
-    min-width: 87px;
+    margin-top: auto;
 }
-.grid-column .footer-content{
+
+.grid-column {
     font-size: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 10px;
+  height: auto;
+    margin-top: 80px;
+}
+
+.footer-content{
+    font-size: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+    margin-top: 80px;
 }
 
 /* Mobile View */
-@media screen and (max-width:960px) {.background-image {max-width: 100%;padding: 25px 20px 20px 20px;}}
-@media screen and (max-width: 576px){.container-box {padding-bottom: 30px;}}
-@media screen and (max-width: 576px){.container-subbox { max-width: 100%;text-align: center;}}
-@media screen and (max-width: 576px){.content-paragraph {font-size: 16px;line-height: 19px;}}
-@media screen and (max-width: 576px){.container-box .button {text-align: center;}}
+@media screen and (max-width: auto) {.background-image {max-width: auto; padding: auto;}}
+@media screen and (max-width: auto){.header-content {margin-top: auto}}
+@media screen and (max-width: auto){.container-box {margin-top: auto}}
+@media screen and (max-width: auto){.container-subbox { max-width: auto;text-align: center;}}
+@media screen and (max-width: auto){.content-paragraph {font-size: 16px;line-height: 19px;}}
+@media screen and (max-width: auto){.container-box .button {text-align: center;}}
 
 
