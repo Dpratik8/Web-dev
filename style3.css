@@ -54,8 +54,8 @@ body {
 }
 
 #flexbox > div {
-  border: 1px solid rgb(202, 231, 202);
-  background-color: rgb(2, 15, 31);
+  border: 1px solid rgb(11, 26, 11);
+  background-color: rgb(63, 120, 196);
   flex: 1 1 auto;
   width: 200px;
   height: 500px;
@@ -70,6 +70,7 @@ body {
   color: white;
   background:rgb(241, 248, 228);
   margin-top: 20px;
+  margin-bottom: 0px;
   
 }
 
